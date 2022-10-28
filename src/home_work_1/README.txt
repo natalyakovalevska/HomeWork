@@ -1,0 +1,12 @@
+class Task1 - задание 1
+class Task2 - задание 2
+class Task3 - задание 3
+class Task4 - задание 4
+class Task4.1. - задание 4.1.
+class Task4.2. - задание 4.2.
+class Task4.3. - задание 4.3.
+class Task4.4. - задание 4.4.
+class Task4.5. - задание 4.5.
+class Task4.6. - задание 4.6.
+class Task5 - задание 5
+class Task6 - задание 6
