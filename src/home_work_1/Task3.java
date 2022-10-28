@@ -1,7 +1,7 @@
 package home_work_1;
 
 public class Task3 {
-    //возвращает абсолютное значение для аргумента value
+ /*   //возвращает абсолютное значение для аргумента value
     abs(double value)
     double result = Math.abs(-13.5); // 13.5
 
@@ -20,5 +20,5 @@ public class Task3 {
     sqrt(double value)
     //возвращает квадратный корень числа value
     double result1 = Math.sqrt(16); // 4
-
+*/
 }

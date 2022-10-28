@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Task4_4 {
 
-            public static void main(String[] args) {
+    public static void main(String[] args) {
 
             Scanner console = new Scanner(System.in);
             System.out.println("Введите число: ");
                 Object res;
-                String a = null;
+                int a = null;
                 if (getBytesOrKiloBytes(console)) {
                     //умножить на 1024, чтобы получить байты
                 res = a * 1024;
@@ -23,6 +23,5 @@ public class Task4_4 {
 
     private static boolean getBytesOrKiloBytes(Scanner console) {
     }
-
 }
 
