@@ -31,15 +31,14 @@ public class ArraysIteration {
             System.out.print(arr[x]);
         }
         System.out.println(" ");
-
-
+    }
         int[] array = new int[0];
 
+        static void printEverySecondElement() {
+            int x = 0;
+            int z = 0;
 
-        public static void printEverySecondElement() {
-            x = 0;
-            z = 0;
-
+            int[] arr = new int[0];
             do {
                 z++;
                 System.out.print(arr[z] + " ");
@@ -62,7 +61,8 @@ public class ArraysIteration {
             System.out.println("");
         }
 
-        public static void printReversedElement () {
+        static void printReversedElement() {
+            int[] arr = arrayFromConsole();
             int i = arr.length - 1;
             int b = arr.length - 1;
 
@@ -84,4 +84,4 @@ public class ArraysIteration {
             System.out.println("");
         }
     }
-}
+
