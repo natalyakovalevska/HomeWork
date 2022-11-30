@@ -4,7 +4,7 @@ import home_work_3.calcs.api.ICalculator;
 
 public class CalculatorWithMathCopy {
 
-    public double add(double a, int b, double c) {
+    public double add(double a, double b, double c) {
         return a + b + c;
     }
 
@@ -27,8 +27,8 @@ public class CalculatorWithMathCopy {
         return value;
     }
 
-    public double division(double c, double d) {
-        return c / d;
+    public double division(double d, double e) {
+        return d / e;
     }
 }
 

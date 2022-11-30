@@ -2,10 +2,10 @@ package home_work_3.calcs.simple;
 
 import home_work_3.calcs.api.ICalculator;
 
-public class CalculatorWithMathExtends extends CalculatorWithOperator implements ICalculator {
+public abstract class CalculatorWithMathExtends extends CalculatorWithOperator implements ICalculator {
 
     @Override
-    public double plus(double a, int b, double c) {
+    public double plus(double a, double b, double c) {
         return a + b + c;
     }
 
@@ -32,12 +32,7 @@ public class CalculatorWithMathExtends extends CalculatorWithOperator implements
     }
 
     @Override
-    public double division(double c) {
-        return c;
-    }
-
-    @Override
-    public double division(double c, double d) {
-        return c / d;
+    public double division(double d, double e) {
+        return d / e;
     }
 }
